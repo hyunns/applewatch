@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Neue Haas Grotesk Display';
+    font-style: normal;
+    font-weight: 100;
+    src: url(../font/NeueHaasDisplay-Thin.eot);
+    src: url(../font/NeueHaasDisplay-Thin?#iefix) format('embedded-opentype'),
+        url(../font/NeueHaasDisplay-Thin.woff) format('woff'),
+        url(../font/NeueHaasDisplay-Thin.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Neue Haas Grotesk Display';
+    font-style: normal;
+    font-weight: 300;
+    src: url(../font/NeueHaasDisplay-Light.eot);
+    src: url(../font/NeueHaasDisplay-Light?#iefix) format('embedded-opentype'),
+        url(../font/NeueHaasDisplay-Light.woff) format('woff'),
+        url(../font/NeueHaasDisplay-Light.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Neue Haas Grotesk Display';
+    font-style: normal;
+    font-weight: 500;
+    src: url(../font/NeueHaasDisplay-Mediu.eot);
+    src: url(../font/NeueHaasDisplay-Mediu?#iefix) format('embedded-opentype'),
+        url(../font/NeueHaasDisplay-Mediu.woff) format('woff'),
+        url(../font/NeueHaasDisplay-Mediu.ttf) format('truetype');
+}
+
+.blind { position: absolute; overflow: hidden; clip: rect(0 0 0 0); margin: -1px; width: 1px; height: 1px; }
+
+body.hidden {height: 100%; overflow-y: hidden; }
+
+.clearfix:after {content:''; display: block; clear:both;}
